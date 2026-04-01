@@ -20,7 +20,7 @@
 ---
 
 include:
-	- board: nice_nano
-		shield: msp_left
-	- board: nice_nano
-		shield: msp_right
+  - board: nice_nano
+    shield: msp_left
+  - board: nice_nano
+    shield: msp_right
