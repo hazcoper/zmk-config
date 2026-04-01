@@ -1,0 +1,5 @@
+config SHIELD_MSP_LEFT
+    def_bool $(shields_list_contains,msp_left)
+
+config SHIELD_MSP_RIGHT
+    def_bool $(shields_list_contains,msp_right)
