@@ -6,6 +6,10 @@
 
 #include "msp-layouts.dtsi"
 
+&pro_micro_serial {
+    status = "okay";
+};
+
 / {
     chosen {
         zmk,physical-layout = &default_layout;
